@@ -1,0 +1,141 @@
+{
+  "groups":[
+    {
+      "id":1,
+      "groupName":"Avengers",
+      "profileImage":"",
+      "description":""
+    },
+    {
+      "id":2,
+      "groupName":"X-Men",
+      "profileImage":"",
+      "description":""
+    },
+    {
+      "id":3,
+      "groupName":"Ethernals",
+      "profileImage":"",
+      "description":""
+    },
+    {
+      "id":4,
+      "groupName":"Guardians of the galaxy",
+      "profileImage":"",
+      "description":""
+    },
+    {
+      "id":5,
+      "groupName":"Young Avengers",
+      "profileImage":"",
+      "description":""
+    }
+  ],
+  "heros":[
+    {
+      "id":1,
+      "heroName":"Iron Man",
+      "realName":"Tony Stark",
+      "profileImage":"",
+      "images":"",
+      "description":"",
+      "group":{
+        "id":1,
+        "groupName":"Avengers"
+      }
+    },
+    {
+      "id":2,
+      "heroName":"Captain America",
+      "realName":"Steve Roger",
+      "profileImage":"",
+      "images":"",
+      "description":"",
+      "group":{
+        "id":1,
+        "groupName":"Avengers"
+      }
+    },
+    {
+      "id":3,
+      "heroName":"Thor",
+      "realName":"Thor (Odin's son)",
+      "profileImage":"",
+      "images":"",
+      "description":"",
+      "group":{
+        "id":1,
+        "groupName":"Avengers"
+      }
+    },
+    {
+      "id":4,
+      "heroName":"Black Window",
+      "realName":"Natasha Romanoff",
+      "profileImage":"",
+      "images":"",
+      "description":"",
+      "group":{
+        "id":1,
+        "groupName":"Avengers"
+      }
+    },
+    {
+      "id":5,
+      "heroName":"Hawk Eye",
+      "realName":"Clint Barton",
+      "profileImage":"",
+      "images":"",
+      "description":"",
+      "group":{
+        "id":1,
+        "groupName":"Avengers"
+      }
+    }
+   
+  ],
+  "sideKicks":[
+    {
+    "id":1,
+    "heroName":"",
+    "realName":"",
+    "profileImage":"",
+    "heros":{
+    },
+    "images":"",
+    "description":"",
+    "group":{
+    }
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "villains":[
+    {
+    "id":1,
+    "villainName":"",
+    "realName":"",
+    "profileImage":"",
+    "heros":{},
+    "sideKicks":{},
+    "images":"",
+    "description":"",
+    "group":{}
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
