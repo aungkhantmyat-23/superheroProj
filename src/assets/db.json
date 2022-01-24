@@ -112,8 +112,8 @@
   "villains":[
     {
     "id":1,
-    "villainName":"",
-    "realName":"",
+    "villainName":"Iron Monger",
+    "realName":"Obadiah Stane",
     "profileImage":"",
     "heros":{},
     "sideKicks":{},
