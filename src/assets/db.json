@@ -1,125 +1,265 @@
 {
-  "groups":[
+  "groups": [
     {
-      "id":1,
-      "groupName":"Avengers",
-      "profileImage":"",
-      "description":""
+      "id": 1,
+      "groupName": "Avengers",
+      "profileImage": "",
+      "description": ""
     },
     {
-      "id":2,
-      "groupName":"X-Men",
-      "profileImage":"",
-      "description":""
+      "id": 2,
+      "groupName": "X-Men",
+      "profileImage": "",
+      "description": ""
     },
     {
-      "id":3,
-      "groupName":"Ethernals",
-      "profileImage":"",
-      "description":""
+      "id": 3,
+      "groupName": "Ethernals",
+      "profileImage": "",
+      "description": ""
     },
     {
-      "id":4,
-      "groupName":"Guardians of the galaxy",
-      "profileImage":"",
-      "description":""
+      "id": 4,
+      "groupName": "Guardians of the galaxy",
+      "profileImage": "",
+      "description": ""
     },
     {
-      "id":5,
-      "groupName":"Young Avengers",
-      "profileImage":"",
-      "description":""
+      "id": 5,
+      "groupName": "Young Avengers",
+      "profileImage": "",
+      "description": ""
     }
   ],
-  "heros":[
+  "heros": [
     {
-      "id":1,
-      "heroName":"Iron Man",
-      "realName":"Tony Stark",
-      "profileImage":"",
-      "images":"",
-      "description":"",
-      "group":{
-        "id":1,
-        "groupName":"Avengers"
+      "id": 1,
+      "heroName": "Iron Man",
+      "realName": "Tony Stark",
+      "profileImage": "",
+      "images": "",
+      "description": "",
+      "group": {
+        "id": 1,
+        "groupName": "Avengers"
       }
     },
     {
-      "id":2,
-      "heroName":"Captain America",
-      "realName":"Steve Roger",
-      "profileImage":"",
-      "images":"",
-      "description":"",
-      "group":{
-        "id":1,
-        "groupName":"Avengers"
+      "id": 2,
+      "heroName": "Captain America",
+      "realName": "Steve Roger",
+      "profileImage": "",
+      "images": "",
+      "description": "",
+      "group": {
+        "id": 1,
+        "groupName": "Avengers"
       }
     },
     {
-      "id":3,
-      "heroName":"Thor",
-      "realName":"Thor (Odin's son)",
-      "profileImage":"",
-      "images":"",
-      "description":"",
-      "group":{
-        "id":1,
-        "groupName":"Avengers"
+      "id": 3,
+      "heroName": "Thor",
+      "realName": "Thor (Odin's son)",
+      "profileImage": "",
+      "images": "",
+      "description": "",
+      "group": {
+        "id": 1,
+        "groupName": "Avengers"
       }
     },
     {
-      "id":4,
-      "heroName":"Black Window",
-      "realName":"Natasha Romanoff",
-      "profileImage":"",
-      "images":"",
-      "description":"",
-      "group":{
-        "id":1,
-        "groupName":"Avengers"
+      "id": 4,
+      "heroName": "Black Window",
+      "realName": "Natasha Romanoff",
+      "profileImage": "",
+      "images": "",
+      "description": "",
+      "group": {
+        "id": 1,
+        "groupName": "Avengers"
       }
     },
     {
-      "id":5,
-      "heroName":"Hawk Eye",
-      "realName":"Clint Barton",
-      "profileImage":"",
-      "images":"",
-      "description":"",
-      "group":{
-        "id":1,
-        "groupName":"Avengers"
+      "id": 5,
+      "heroName": "Hawk Eye",
+      "realName": "Clint Barton",
+      "profileImage": "",
+      "images": "",
+      "description": "",
+      "group": {
+        "id": 1,
+        "groupName": "Avengers"
       }
-    }
-   
-  ],
-  "sideKicks":[
-    {
-    "id":1,
-    "heroName":"",
-    "realName":"",
-    "profileImage":"",
-    "heros":{
-    },
-    "images":"",
-    "description":"",
-    "group":{
-    }
     }
   ],
-  
-  "villains":[
+  "sideKicks": [
     {
-    "id":1,
-    "villainName":"Iron Monger",
-    "realName":"Obadiah Stane",
-    "profileImage":"",
-    "heros":{},
-    "sideKicks":{},
-    "images":"",
-    "description":"",
-    "group":{}
+      "id": 1,
+      "heroName": "War Machine",
+      "realName": "James Rhodes",
+      "profileImage": "",
+      "heros": {
+        "id": 1,
+        "heroName": "Iron Man"
+      },
+      "images": "",
+      "description": "",
+      "group": {
+        "id": 1,
+        "groupName": "Avengers"
+      }
+    },
+    {
+      "id": 2,
+      "heroName": "Winter Soldier",
+      "realName": "Bucky Barnes",
+      "profileImage": "",
+      "heros": {
+        "id":2,
+        "heroName":"Captain America"
+      },
+      "images": "",
+      "description": "",
+      "group": {
+        "id": 1,
+        "groupName": "Avengers"
+      }
+    },
+    {
+      "id": 3,
+      "heroName": "Beta Ray Bill",
+      "realName": "Beta Ray Bill",
+      "profileImage": "",
+      "heros": {
+        "id":3,
+        "heroName":"Thor"
+      },
+      "images": "",
+      "description": "",
+      "group": {
+        "id": 1,
+        "groupName": "Avengers"
+      }
+    },
+    {
+      "id": 4,
+      "heroName": "Lucy",
+      "realName": "Lucy",
+      "profileImage": "",
+      "heros": {
+        "id":4,
+        "heroName":"Black Window"
+      },
+      "images": "",
+      "description": "",
+      "group": {
+        "id": 1,
+        "groupName": "Avengers"
+      }
+    },
+    {
+      "id": 5,
+      "heroName": "Hawkeye",
+      "realName": "Kate Bishop",
+      "profileImage": "",
+      "heros": {
+        "id":5,
+        "heroName":"Hawk Eye"
+      },
+      "images": "",
+      "description": "",
+      "group": {
+        "id": 1,
+        "groupName": "Avengers"
+      }
+    }
+  ],
+  "villains": [
+    {
+      "id": 1,
+      "villainName": "Iron Monger",
+      "realName": "Obadiah Stane",
+      "profileImage": "",
+      "heros": {
+        "id":1,
+        "heroName":"Iron Man"
+      },
+      "sideKicks": {},
+      "images": "",
+      "description": "",
+      "group": {
+        "id":1,
+        "groupName":"Avengers"
+      }
+    },
+    {
+      "id": 2,
+      "villainName": "Red Skull",
+      "realName": "Johann Schmidt",
+      "profileImage": "",
+      "heros": {
+        "id":2,
+        "heroName":"Captain America"
+      },
+      "sideKicks": {},
+      "images": "",
+      "description": "",
+      "group": {
+        "id":1,
+        "groupName":"Avengers"
+      }
+    },
+    {
+      "id": 3,
+      "villainName": "Loki",
+      "realName": "Loki Laufeyson",
+      "profileImage": "",
+      "heros": {
+        "id":3,
+        "heroName":"Thor"
+      },
+      "sideKicks": {},
+      "images": "",
+      "description": "",
+      "group": {
+        "id":1,
+        "groupName":"Avengers"
+      }
+    },
+    {
+      "id": 4,
+      "villainName": "Task Master",
+      "realName": "Anthony Tony Masters",
+      "profileImage": "",
+      "heros": {
+        "id":4,
+        "heroName":"Black Window"
+      },
+      "sideKicks": {},
+      "images": "",
+      "description": "",
+      "group": {
+        "id":1,
+        "groupName":"Avengers"
+      }
+    },
+    {
+      "id": 5,
+      "villainName": "Trick Shot",
+      "realName": "Buck Chisholm",
+      "profileImage": "",
+      "heros": {
+        "id":5,
+        "heroName":"Hawk Eye"
+      },
+      "sideKicks": {},
+      "images": "",
+      "description": "",
+      "group": {
+        "id":1,
+        "groupName":"Avengers"
+      }
     }
   ],
   "posts": [

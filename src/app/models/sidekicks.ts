@@ -8,7 +8,7 @@ export class Sidekicks{
   heroName: string;
   realName: string;
   profileImage: string;
-  hero: Hero
+  hero: Hero;
   images: string;
   description: string;
   group: Group;
