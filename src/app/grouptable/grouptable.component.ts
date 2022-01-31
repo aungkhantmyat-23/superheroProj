@@ -15,7 +15,7 @@ export class TestTableComponent implements AfterViewInit {
   @ViewChild(MatTable) table!: MatTable<TestTableItem>;
   dataSource: TestTableDataSource;
 
-  /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
+  
   displayedColumns = ['id', 'groupName'];
 
   constructor() {
