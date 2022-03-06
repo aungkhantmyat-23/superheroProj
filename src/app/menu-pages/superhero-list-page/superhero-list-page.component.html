@@ -1,0 +1,63 @@
+<div fxLayout="column" class="main-container">
+  <div class="flex-p">
+    <div>
+      <button
+        class="m-2 mat-raised-button mat-button-base mat-primary"
+        color="primary"
+        mat-raised-button=""
+        ng-reflect-color="primary"
+        (click)="create()"
+      >
+        <mat-icon>add</mat-icon> &nbsp;
+        <span class="mat-button-wrapper">Add Method</span>
+      </button>
+    </div>
+    <br />
+    <div class="panel panel-default" style="background-color: #efefef">
+      <div class="table">
+        <div class="example-container mat-elevation-z8">
+          <mat-table matSort [dataSource]="dataSource">
+            <ng-container matColumnDef="codeName">
+              <mat-header-cell *matHeaderCellDef mat-sort-header>
+                Super Hero Name
+              </mat-header-cell>
+              <mat-cell *matCellDef="let row">{{ row.heroName }} </mat-cell>
+            </ng-container>
+            <ng-container matColumnDef="realName">
+              <mat-header-cell *matHeaderCellDef mat-sort-header>
+                Real Name
+              </mat-header-cell>
+              <mat-cell *matCellDef="let row">{{ row.realName }} </mat-cell>
+            </ng-container>
+            <ng-container matColumnDef="group">
+              <mat-header-cell *matHeaderCellDef mat-sort-header>
+                Group
+              </mat-header-cell>
+              <mat-cell *matCellDef="let row">{{ row.group }} </mat-cell>
+            </ng-container>
+            <ng-container matColumnDef="actions">
+              <mat-header-cell *matHeaderCellDef mat-sort-header>
+                Actions
+              </mat-header-cell>
+              <mat-cell *matCellDef="let row">
+                <a title="Edit" class="btn">
+                  <span class="fa-regular fa-pen-to-square"></span>
+                </a>
+                <a title="Delete" class="btn">
+                  <span class="fa fa-trash"></span>
+                </a>
+              </mat-cell>
+            </ng-container>
+            <mat-header-row
+              *matHeaderRowDef="displayedColumns; sticky: true"
+            ></mat-header-row>
+            <mat-row *matRowDef="let row; columns: displayedColumns"> </mat-row>
+          </mat-table>
+          <mat-paginator
+           
+          ></mat-paginator>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
